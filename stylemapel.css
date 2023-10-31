@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:opsz@9..40&family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    color: rgb(255, 255, 255);
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 7%;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.lol {
+    font-size: 150%;
+    
+}
+
+.navbar a {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 100px;
+    margin-left: 35px;
+    transition: .3s;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.navbar a:hover,
+.navbar .active {
+    color: rgb(0, 255, 255);
+    text-decoration: underline;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.halo {
+    color: rgb(0, 0, 0);
+    height: 20%;
+    background: rgb(255, 255, 255);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 0 7%;
+}
+.haloguys {
+    max-width: 600;
+}
+
+.haloguys h1 {
+    font-family: 'Poppins' , sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 80px
+    
+}
+
+.haloguys h3  {
+    font-family: 'Poppins' , sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 100px
+}
+
+.haloguys h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 50px;
+    font-style: oblique;
+    font-family: 'Poppins' , sans-serif;
+}
+
+.haloguys p {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 30px 0 10px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.haloguys ul  {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 5px 0 10px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bold;
+    
+}
+
+.haloguys li  {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 5px 0 10px;
+    font-family: 'Roboto',sans-serif;
+    margin: 30px;
+    color: black;
+}
+
